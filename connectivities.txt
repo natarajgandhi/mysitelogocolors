@@ -1,0 +1,19 @@
+user id : natarajgandhi
+password: voila123
+
+url:     mongodb://<dbuser>:<dbpassword>@ds017582.mlab.com:17582/shoppingmart-natarajgandhi
+
+
+shell url: mongo ds017582.mlab.com:17582/shoppingmart-natarajgandhi -u <dbuser> -p <dbpassword>
+
+
+mongo ds017582.mlab.com:17582/test-natarajgandhi -u nataraj -p voila123
+
+
+-----------------
+
+mongoimport -h ds017582.mlab.com:17582 -d shoppingmart-natarajgandhi -c cart -u natarajgandhi -p voila123 --file "C:\nodeFinalExam\ShoppingMart\data\cart.json"
+
+mongoimport -h ds017582.mlab.com:17582 -d shoppingmart-natarajgandhi -c item -u natarajgandhi -p voila123 --file "C:\nodeFinalExam\ShoppingMart\data\items.json"
+
+
